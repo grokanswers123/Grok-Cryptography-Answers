@@ -1,0 +1,59 @@
+/TITLE: REPRESENTING DATA/
+/Section: Intro to Cryptyo/
+<Activity: Hidden Message>
+HELLO
+
+/Section: Conventions/
+
+<Activity: Hello, Crypto>
+print('Hello, Crypto!')
+
+/Section: From letters to numbers with ord/
+
+<Activity: Letters to Numbers>
+letter = input("Letter: ")
+code = ord(letter)
+print(code)
+
+<Activity: Input, ord, and print!>
+character = input("Character: ")
+value = ord(character)
+print(value)
+
+/Section: Loops/
+
+<Activity: Spelling my name>
+name = input('What is your name? ')
+for letter in name:
+  print(letter)
+
+<Activity: Spell Me Out>
+word = input('What do you want to spell? ')
+for letter in word:
+  print(letter)
+  
+<Activity: Send away the numbers>
+plain = input('Message: ')
+for letter in plain:
+  code = ord(letter) 
+  print(code)
+
+/Section: Using splits/
+<Activity: Whats the message>
+
+
+
+
+
+/Section: From numbers to letters with chr/
+<Acitvity: Numbers to Emoji>
+😂👌🔥💯
+
+<Activity: Strings or Numbers>
+value = input("Enter a number: ")
+value = int(value)
+print(value)
+
+<Activity: Find the Coordinates>
+Latitude: 25.3444S
+Longitude: 131.0369E
